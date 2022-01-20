@@ -152,21 +152,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # EmailProject/settings.py
 
 #
-# EMAIL_USE_TLS = True
-# EMAIL_HOST = 'seydali.zewia@gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'seydali.zewia@gmail.com'
-# EMAIL_HOST_PASSWORD = '9037107998'
-# DEFAULT_FROM_EMAIL = 'zewianstech Team <noreply@example.com>'
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'seydali.zewia@gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'seydali.zewia@gmail.com'
-# EMAIL_HOST_PASSWORD = '9037107998'
-#
 # # Custom setting. To email
 # RECIPIENT_ADDRESS = 'RECIPIENT_ADDRESS'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
